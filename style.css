@@ -1,11 +1,76 @@
 
+/* Smartphone size*/
 @media only screen and (max-width: 300px) {
-    html {background-color: red;}
+    body {background-color: red;
+        font-size: 12px;
     }
+    .small {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .medium {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .large {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
+
+/* Tablet size*/    
 @media only screen and (min-width: 301px) and (max-width: 767px) {
-    html {background-color:green;}
+    body {background-color:green;
+        font-size: 14px;
     }
+    .small {
+        width: 75%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .medium {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .large {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
+
+/* Computer size */
 @media only screen and (min-width: 768px) {
-    html {background: blue;}
+    body {background: blue;
+        font-size: 16px;
     }
+    .small {
+        width: 33%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .medium {
+        width: 33%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .large {
+        width: 33%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
 
